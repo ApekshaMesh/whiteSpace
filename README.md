@@ -6,47 +6,56 @@ Real-time collaborative canvas
 User presence indicators
 Shared workspace
 Responsive design
+
 📋 Prerequisites
 Before running this project, make sure you have the following installed:
-
 Node.js (v14 or higher)
 npm or yarn
 Redis (v6 or higher)
+
 🛠️ Installation
-Clone the repository:
+1. Clone the repository:
 git clone https://github.com/chetan-187/the-white-space.git
 cd the-white-space
-Install dependencies for both server and client:
+
+3. Install dependencies for both server and client:
+   
 # Install server dependencies
-cd the-white-space-server
+cd the-white-space-server 
 npm install
 
 # Install client dependencies
 cd ../the-white-space-web
 npm install
-Set up Redis:
-Make sure Redis server is installed and running on your machine
-Default Redis configuration uses:
+
+3. Set up Redis:
+*Make sure Redis server is installed and running on your machine
+*Default Redis configuration uses:
 Host: localhost
 Port: 6379
 No password (for local development)
+
 ⚙️ Configuration
-Server Configuration:
+1. Server Configuration:
 cd the-white-space-server
 # Create .env file with the following variables:
 # PORT=8000
 # REDIS_URL=redis://localhost:6379
-Client Configuration:
+
+2. Client Configuration:
 cd the-white-space-web
 # Create .env file with the following variables:
 # REACT_APP_API_URL=http://localhost:8000
+
 🚀 Running the Application
-Start the server:
+1. Start the server:
 cd the-white-space-server
 npm run dev
-Start the client:
+
+2. Start the client:
 cd the-white-space-web
 npm start
+
 The application will be available at:
 
 Frontend: http://localhost:3000
